@@ -7,7 +7,7 @@
     <label>neutralizing luciferium</label>
     <description>neutralizing luciferium to produce Neutroamine.</description>
     <jobString>neutralizing drugs.</jobString>
-      <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
       <workSkill>Medicine</workSkill>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Brewing</soundWorking>
@@ -45,7 +45,7 @@
     <label>neutralizing gojuice</label>
     <description>neutralizing gojuice to produce Neutroamine.</description>
     <jobString>neutralizing drugs.</jobString>
-      <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
       <workSkill>Medicine</workSkill>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Brewing</soundWorking>
@@ -83,7 +83,7 @@
     <label>neutralizing penoxycyline</label>
     <description>neutralizing penoxycyline to produce Neutroamine.</description>
     <jobString>neutralizing drugs.</jobString>
-      <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
       <workSkill>Medicine</workSkill>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Brewing</soundWorking>
@@ -121,7 +121,7 @@
     <label>neutralizing wakeup</label>
     <description>neutralizing wakeup to produce Neutroamine.</description>
     <jobString>neutralizing drugs.</jobString>
-      <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
       <workSkill>Medicine</workSkill>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Brewing</soundWorking>
@@ -159,7 +159,7 @@
     <label>neutralizing medicine</label>
     <description>neutralizing medicine to produce Neutroamine.</description>
     <jobString>neutralizing medicine.</jobString>
-      <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
       <workSkill>Medicine</workSkill>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Brewing</soundWorking>
@@ -168,7 +168,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Medicine</li>
+            <li>MedicineIndustrial</li>
           </thingDefs>
         </filter>
         <count>30</count>
@@ -176,7 +176,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Medicine</li>
+        <li>MedicineIndustrial</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
